@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sebastian Melo — PhD Candidate in Economics</title>
+  <meta name="description" content="PhD candidate in Economics. Research areas: labor, trade, applied micro. Working papers, publications, teaching, CV, and contact." />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:title" content="Sebastian Melo — PhD Candidate in Economics" />
+  <meta property="og:description" content="Research areas: labor, trade, applied micro. Working papers, publications, teaching, CV, and contact." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://smelomartin.github.io/" />
+  <meta property="og:image" content="/assets/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Favicon (replace with your own) -->
+  <link rel="icon" href="assets/favicon.ico" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Minimal, modern CSS (no build step) -->
+  <style>
+    :root{
+      --bg: #0b0d10;
+      --muted-bg: #12161b;
+      --text: #e9eef4;
+      --text-dim: #b7c1cc;
+      --accent: #4fb3ff;
+      --accent-2: #7cffd6;
+      --card: #0f1318;
+      --border: #1f2832;
+    }
+    :root.light{
+      --bg: #f7f9fc;
+      --muted-bg: #ffffff;
+      --text: #0e1726;
+      --text-dim: #39465a;
+      --accent: #0066ff;
+      --accent-2: #0bb89f;
+      --card: #ffffff;
+      --border: #e7edf5;
+    }
+    html, body { height: 100%; }
+    body{
+      margin:0; background:var(--bg); color:var(--text);
+      font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      line-height:1.6; letter-spacing:0.1px; -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    }
+    a{ color: var(--accent); text-decoration: none; }
+    a:hover{ text-decoration: underline; }
+    .container{ max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+    .nav{ position: sticky; top: 0; z-index: 50; backdrop-filter: blur(8px); background: color-mix(in oklab, var(--bg) 70%, transparent); border-bottom:1px solid var(--border); }
+    .nav-inner{ display:flex; align-items:center; justify-content:space-between; height:64px; }
+    .brand{ display:flex; align-items:center; gap:.6rem; font-weight:700; letter-spacing:.3px; }
+    .brand .dot{ width:10px; height:10px; border-radius:50%; background:linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow:0 0 18px color-mix(in oklab, var(--accent) 70%, transparent); }
+    .nav a{ color:var(--text); opacity:.9; }
+    .nav-links{ display:flex; gap:1rem; align-items:center; }
+    .btn{ display:inline-flex; align-items:center; gap:.5rem; padding:.6rem .9rem; border:1px solid var(--border); border-radius:999px; background:linear-gradient(180deg, color-mix(in oklab, var(--card) 90%, #0000), var(--card)); color:var(--text); font-weight:600; }
+    .btn:hover{ text-decoration:none; border-color: color-mix(in oklab, var(--border), var(--accent)); box-shadow:0 6px 16px rgba(0,0,0,.18); }
+
+    header.hero{ padding: 64px 0 24px; }
+    .grid{ display:grid; gap: 22px; }
+    @media (min-width: 900px){ .grid-2{ grid-template-columns: 1.2fr .8fr; } }
+    .card{ background: var(--card); border:1px solid var(--border); border-radius: 16px; padding: 22px; }
+    .muted{ color: var(--text-dim); }
+    h1{ margin:.2rem 0 1rem; font-size: clamp(28px, 5vw, 46px); line-height:1.15; font-weight:800; letter-spacing:.2px; }
+    h2{ font-family: "PT Serif", Georgia, serif; font-weight:700; font-size: clamp(22px, 3vw, 28px); margin: 0 0 10px; }
+    h3{ font-weight:700; font-size:18px; margin:0 0 8px; }
+    .kicker{ text-transform:uppercase; letter-spacing:.18em; font-weight:700; font-size:12px; color:var(--text-dim); }
+    .tags{ display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+    .tag{ font-size:12px; padding:.25rem .55rem; border-radius:999px; border:1px solid var(--border); color:var(--text-dim); }
+    .section{ padding: 26px 0 10px; }
+    .list{ display:grid; gap: 14px; }
+    .pub{ display:grid; gap:4px; padding: 14px; border:1px solid var(--border); border-radius:12px; background: linear-gradient(180deg, color-mix(in oklab, var(--card) 85%, #0000), var(--card)); }
+    .pub .title{ font-weight:700; }
+    .pub .meta{ font-size: 14px; color: var(--text-dim); display:flex; flex-wrap:wrap; gap:.5rem; }
+    .pub .links{ display:flex; gap:.6rem; flex-wrap:wrap; }
+    footer{ border-top:1px solid var(--border); margin-top: 40px; padding: 28px 0 60px; color:var(--text-dim); }
+    .pill{ padding:.25rem .55rem; border:1px solid var(--border); border-radius:999px; font-size:12px; }
+    .flex{ display:flex; gap:.8rem; align-items:center; flex-wrap:wrap; }
+    .avatar{ width: 84px; height: 84px; border-radius: 16px; border:1px solid var(--border); object-fit:cover; }
+    .mono{ font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 12px; color: var(--text-dim); }
+    .sr-only{ position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); border:0; }
+  </style>
+</head>
+<body>
+  <!-- Skip link -->
+  <a href="#main" class="sr-only">Skip to content</a>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="#home" aria-label="Home">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Sebastian Melo</span>
+      </a>
+      <div class="nav-links">
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="btn" type="button" aria-label="Toggle dark mode">🌙 <span class="mono">theme</span></button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header / Hero -->
+  <header id="home" class="hero container">
+    <div class="grid grid-2">
+      <section class="card">
+        <div class="kicker">PhD Candidate in Economics</div>
+        <h1>Labor, Trade, & Applied Micro</h1>
+        <p class="muted">I am a PhD candidate at the Vancouver School of Economics (UBC). My research studies how external demand shocks propagate through firms and workers, with a current focus on lithium supply chains in Chile.</p>
+        <div class="tags" aria-label="Research fields">
+          <span class="tag">Labor</span>
+          <span class="tag">International Trade</span>
+          <span class="tag">Applied Micro</span>
+          <span class="tag">Causal Inference</span>
+        </div>
+        <p class="muted" style="margin-top:10px">Download my <a href="#cv">CV</a>. Find me on <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>, <a href="https://www.ssrn.com/" target="_blank" rel="noopener">SSRN</a>, <a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>, <a href="https://github.com/smelomartin" target="_blank" rel="noopener">GitHub</a>, and <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+      </section>
+      <aside class="card" aria-label="Profile">
+        <div class="flex">
+          <img class="avatar" src="assets/avatar.jpg" alt="Portrait of Sebastian Melo" />
+          <div>
+            <h3 style="margin:0">Sebastian Melo</h3>
+            <div class="muted">Vancouver, Canada · <span class="pill">He/Him</span></div>
+            <div class="mono">sebastian.melo@ubc.ca</div>
+          </div>
+        </div>
+        <div style="margin-top:10px" class="muted">
+          Stone Fellow · Teaching Assistant · Vancouver School of Economics
+        </div>
+        <div style="margin-top:10px" class="flex">
+          <a class="btn" href="#contact">📮 Contact</a>
+          <a class="btn" href="#cv">📄 CV</a>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <!-- Research -->
+    <section id="research" class="section">
+      <h2>Research</h2>
+      <p class="muted">Downloadable drafts below. Email me for the latest versions.</p>
+      <div class="list" aria-label="Working papers and publications">
+        <!-- Working Paper Example -->
+        <article class="pub">
+          <div class="title">Global Demand Shocks and Labor Market Spillovers: Evidence from Lithium in Chile</div>
+          <div class="meta">Working paper · 2025 · with Daniel Guzmán</div>
+          <p class="muted">We study how external demand shocks in lithium markets propagate through firm networks and affect workers' earnings, employment, and mobility.</p>
+          <div class="links">
+            <a class="btn" href="papers/lithium_spillovers.pdf">PDF</a>
+            <a class="btn" href="slides/lithium_spillovers_slides.pdf">Slides</a>
+            <a class="btn" href="bib/lithium_spillovers.bib">BibTeX</a>
+            <a class="btn" href="#" aria-disabled="true">Replication (coming soon)</a>
+          </div>
+        </article>
+
+        <!-- Publication Example -->
+        <article class="pub">
+          <div class="title">Training Vouchers and Women’s Employment: Evidence from Administrative Data</div>
+          <div class="meta">Journal of Labor Economics · 2024</div>
+          <p class="muted">Using linked administrative data and a dynamic evaluation framework, we estimate the causal impact of training vouchers on employment outcomes for women with interrupted careers.</p>
+          <div class="links">
+            <a class="btn" href="#">Journal</a>
+            <a class="btn" href="papers/training_vouchers_wp.pdf">Ungated</a>
+            <a class="btn" href="bib/training_vouchers.bib">BibTeX</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching" class="section">
+      <h2>Teaching</h2>
+      <div class="list">
+        <article class="card">
+          <h3>ECON 628: Empirical Methods (TA)</h3>
+          <p class="muted">Graduate course covering causal inference, panel data, and machine learning for applied micro. Responsibilities include leading labs (Stata/R), grading, and project advising.</p>
+          <div class="flex">
+            <span class="pill">2024–2025</span>
+            <a class="btn" href="teaching/econ628_syllabus.pdf">Syllabus</a>
+            <a class="btn" href="teaching/labs/">Labs</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>ECON 326: Econometrics (TA)</h3>
+          <p class="muted">Undergraduate course on regression, causal inference, and program evaluation. Led problem sessions and office hours.</p>
+          <div class="flex">
+            <span class="pill">2023</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section">
+      <h2>CV</h2>
+      <div class="card">
+        <p class="muted">Download the latest version of my CV. A short bio and key links are below.</p>
+        <div class="flex">
+          <a class="btn" href="cv/Sebastian_Melo_CV.pdf" download>Download CV (PDF)</a>
+          <a class="btn" href="cv/Sebastian_Melo_Resume.pdf" download>Resume</a>
+          <span class="pill">Updated: Aug 2025</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <div class="card">
+        <p style="margin:0 0 6px"><strong>Email</strong>: <a href="mailto:sebastian.melo@ubc.ca">sebastian.melo@ubc.ca</a></p>
+        <p style="margin:0 0 6px"><strong>Office</strong>: Vancouver School of Economics, 6000 Iona Dr, Vancouver, BC</p>
+        <p class="muted" style="margin:0">Also on <a href="https://scholar.google.com/" target="_blank" rel="noopener">Google Scholar</a>, <a href="https://www.ssrn.com/" target="_blank" rel="noopener">SSRN</a>, <a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a>, <a href="https://github.com/smelomartin" target="_blank" rel="noopener">GitHub</a>, <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>, and <a href="https://x.com/" target="_blank" rel="noopener">X</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container flex" style="justify-content:space-between">
+      <div>© <span id="year"></span> Sebastian Melo. Built with plain HTML/CSS. Hosted on GitHub Pages.</div>
+      <div class="mono">Last updated: <time id="lastmod" datetime="2025-08-20">Aug 20, 2025</time></div>
+    </div>
+  </footer>
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sebastian Melo",
+    "jobTitle": "PhD Candidate in Economics",
+    "affiliation": {"@type":"Organization","name":"Vancouver School of Economics, UBC"},
+    "email": "mailto:sebastian.melo@ubc.ca",
+    "url": "https://smelomartin.github.io/",
+    "sameAs": [
+      "https://scholar.google.com/", 
+      "https://www.ssrn.com/",
+      "https://orcid.org/",
+      "https://github.com/smelomartin",
+      "https://www.linkedin.com/"
+    ]
+  }
+  </script>
+
+  <!-- Small JS: theme toggle & footer year -->
+  <script>
+    (function(){
+      const root = document.documentElement;
+      const btn = document.getElementById('themeBtn');
+      const key = 'pref-theme';
+      const saved = localStorage.getItem(key);
+      if(saved === 'light') root.classList.add('light');
+      btn.addEventListener('click',()=>{
+        root.classList.toggle('light');
+        localStorage.setItem(key, root.classList.contains('light')?'light':'dark');
+      });
+      // Year
+      const y = new Date().getFullYear();
+      document.getElementById('year').textContent = y;
+    })();
+  </script>
+</body>
+</html>
