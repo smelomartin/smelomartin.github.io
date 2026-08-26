@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="UZGWedEORAazgic93BSO8ose9rt5xmnP5AK1rtr3q08" />
+
 <!--
 Load Academicons v1: https://jpswalsh.github.io/academicons/
 Used for icons like ORCID, Google Scholar, etc. via {{< ai ... >}} shortcodes.
