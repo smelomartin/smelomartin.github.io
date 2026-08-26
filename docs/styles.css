@@ -1,1 +1,12 @@
 /* css styles */
+
+/* Push the Home/Research/Teaching/CV menu closer to the right edge
+   of the navbar instead of sitting flush after the title. */
+.navbar .navbar-collapse .navbar-nav {
+  margin-right: 0 !important;
+  margin-left: auto !important;
+}
+
+.navbar-title {
+  font-weight: bold;
+}

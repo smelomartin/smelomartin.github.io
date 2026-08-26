@@ -1,67 +1,25 @@
 ---
 title: "Teaching"
-subtitle: "I teach."
 title-block-banner: false
 ---
 
+## Teaching Assistant
 
-## Class 1
+### University of British Columbia
 
-::: {.grid}
+`<i class="bi bi-mortarboard"></i>`{=html} Topics in Applied Econometrics (Graduate)\
+Fall 2023 -- Fall 2025
 
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder1.jpg)
+`<i class="bi bi-mortarboard"></i>`{=html} Labor Economics (Graduate)\
+Fall 2024 -- Fall 2025
 
-:::
+`<i class="bi bi-mortarboard"></i>`{=html} International Trade (Undergraduate)\
+2022 -- Fall 2023
 
-::: {.g-col-12 .g-col-md-10}
+### Universidad de los Andes
 
-[Fall 2024](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
+`<i class="bi bi-mortarboard"></i>`{=html} Long-run Macroeconomics (Undergraduate)\
+2015 -- 2017
 
-Class 1 introduction.
-
-:::
-
-:::
-
-
-## Class 2
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder2.JPG)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Fall 2023](https://www.google.com)
-
-Class 2 introduction.
-
-:::
-
-:::
-
-
-## Class 3
-
-::: {.grid}
-
-::: {.g-col-12 .g-col-md-2}
-![](files/images/placeholder3.JPG)
-
-:::
-
-::: {.g-col-12 .g-col-md-10}
-
-[Spring 2025](https://www.google.com), &nbsp; [Spring 2024](https://www.google.com)
-
-Class 3 introduction. 
-
-:::
-
-:::
-
-
+`<i class="bi bi-mortarboard"></i>`{=html} Introduction to Macroeconomics (Undergraduate)\
+2015 -- 2017
