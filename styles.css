@@ -18,12 +18,10 @@
 /* Expandable "Abstract" buttons on the Research page */
 .abstract-btn {
   margin-left: 0.6em;
-  margin-top: 0.4em;
-  margin-bottom: 0.4em;
-  padding: 0.1rem 0.5rem;
-  font-size: 0.75rem;
-  line-height: 1.4;
-  vertical-align: middle;
+  padding: 0.05rem 0.4rem;
+  font-size: 0.7rem;
+  line-height: 1.3;
+  vertical-align: baseline;
 }
 
 .abstract-body {
