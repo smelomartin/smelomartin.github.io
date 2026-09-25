@@ -8,14 +8,34 @@ title-block-banner: false
 **Shifting the Burden: How Unions Redistribute Adjustment Costs Across Workers** &nbsp; [Job Market Paper]\
 \[[Draft available upon request](mailto:jsmelo48@student.ubc.ca)\]
 
+`<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-shifting-burden" aria-expanded="false" aria-controls="abs-shifting-burden">Abstract</button>`{=html}
+`<div class="collapse abstract-collapse" id="abs-shifting-burden"><div class="card card-body abstract-body">`{=html}
+Abstract coming soon.
+`</div></div>`{=html}
+
 **Do Active Labor Market Programs Help At-Risk Populations? Evidence from Linked Social Assistance Records**\
 With [Kelly Foley](https://www.kellyfoley.org/) and [Vince Hopkins](https://www.vincehopkins.com/about)
+
+`<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-almp" aria-expanded="false" aria-controls="abs-almp">Abstract</button>`{=html}
+`<div class="collapse abstract-collapse" id="abs-almp"><div class="card card-body abstract-body">`{=html}
+Abstract coming soon.
+`</div></div>`{=html}
 
 **Firm Networks and Wage Determination**\
 With [Daniel Guzman](https://daniel-guzmangiron.com/)
 
+`<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-firm-networks" aria-expanded="false" aria-controls="abs-firm-networks">Abstract</button>`{=html}
+`<div class="collapse abstract-collapse" id="abs-firm-networks"><div class="card card-body abstract-body">`{=html}
+Abstract coming soon.
+`</div></div>`{=html}
+
 **Financial Inclusion of the Poor and Money Laundering Indicators: Empirical Evidence for Colombia**\
 With [Hernando Bayona](https://scholar.google.com/citations?user=NSeHMyMAAAAJ&hl=es) and Catherine Rodriguez
+
+`<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-financial-inclusion" aria-expanded="false" aria-controls="abs-financial-inclusion">Abstract</button>`{=html}
+`<div class="collapse abstract-collapse" id="abs-financial-inclusion"><div class="card card-body abstract-body">`{=html}
+Abstract coming soon.
+`</div></div>`{=html}
 
 ## Book Chapters
 

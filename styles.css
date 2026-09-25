@@ -14,3 +14,13 @@
 .hero-greeting {
   font-size: 1.3em;
 }
+
+/* Expandable "Abstract" buttons on the Research page */
+.abstract-btn {
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+}
+
+.abstract-body {
+  font-size: 0.95em;
+}
