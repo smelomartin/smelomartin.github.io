@@ -32,7 +32,7 @@ about:
 
 [**Hello, welcome!**]{.hero-greeting}
 
-I am Sebastian Melo-Martin — also known as Sebastian Melo — a Ph.D. Candidate in Economics at the [Vancouver School of Economics](https://economics.ubc.ca/), University of British Columbia, and a 2025–2027 Ph.D. Fellow at the [Stone Centre on Wealth and Income Inequality](https://stonecentre.economics.ubc.ca/) at UBC.
+I am a Ph.D. Candidate in Economics at the [Vancouver School of Economics](https://economics.ubc.ca/), University of British Columbia, and a 2025–2027 Ph.D. Fellow at the [Stone Centre on Wealth and Income Inequality](https://stonecentre.economics.ubc.ca/) at UBC.
 
 I am an applied economist with research interests in labor and health economics.
 
