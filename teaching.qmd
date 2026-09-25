@@ -7,10 +7,10 @@ title-block-banner: false
 
 ### University of British Columbia
 
-`<i class="bi bi-mortarboard"></i>`{=html} Topics in Applied Econometrics (Graduate)\
+`<i class="bi bi-mortarboard"></i>`{=html} Topics in Applied Econometrics (Graduate - PhD level)\
 Fall 2023 -- Fall 2025
 
-`<i class="bi bi-mortarboard"></i>`{=html} Labor Economics (Graduate)\
+`<i class="bi bi-mortarboard"></i>`{=html} Labor Economics (Graduate - PhD level)\
 Fall 2024 -- Fall 2025
 
 `<i class="bi bi-mortarboard"></i>`{=html} International Trade (Undergraduate)\
