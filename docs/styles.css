@@ -17,6 +17,7 @@
 
 /* Expandable "Abstract" buttons on the Research page */
 .abstract-btn {
+  margin-left: 0.6em;
   margin-top: 0.4em;
   margin-bottom: 0.4em;
 }
