@@ -6,7 +6,7 @@ title-block-banner: false
 ## Work in Progress
 
 **Shifting the Burden: How Unions Redistribute Adjustment Costs Across Workers** &nbsp; [Job Market Paper]\
-\[[Draft available upon request](mailto:jsmelo48@student.ubc.ca)\] `<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-shifting-burden" aria-expanded="false" aria-controls="abs-shifting-burden">Abstract</button>`{=html}
+\[Draft coming soon\] `<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-shifting-burden" aria-expanded="false" aria-controls="abs-shifting-burden">Abstract</button>`{=html}
 
 `<div class="collapse abstract-collapse" id="abs-shifting-burden"><div class="card card-body abstract-body">`{=html}
 Abstract coming soon.
