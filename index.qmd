@@ -1,7 +1,7 @@
 ---
 title: "Sebastian Melo-Martin"
 description-meta: "Sebastian Melo-Martin (also known as Sebastian Melo) — PhD Candidate in Economics, Vancouver School of Economics, UBC"
-image: "files/images/headshot.jpg"
+image: "files/images/DSCF9079.jpg"
 page-navigation: false
 toc: false
 page-layout: full
@@ -50,7 +50,7 @@ Before joining UBC, I earned a Bachelor's degree and a Master's degree in Econom
   "name": "Sebastian Melo-Martin",
   "alternateName": ["Sebastian Melo", "Sebastián Melo-Martín"],
   "url": "https://smelomartin.github.io",
-  "image": "https://smelomartin.github.io/files/images/headshot.jpg",
+  "image": "https://smelomartin.github.io/files/images/DSCF9079.jpg",
   "jobTitle": "PhD Candidate in Economics",
   "affiliation": {
     "@type": "CollegeOrUniversity",
