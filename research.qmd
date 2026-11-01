@@ -3,20 +3,22 @@ title: "Research"
 title-block-banner: false
 ---
 
-## Work in Progress
+## Job Market Paper
 
-**Shifting the Burden: How Unions Redistribute Adjustment Costs Across Workers** &nbsp; [Job Market Paper]\
+**Who Bears the Shock? Unions, Early Retirement, and Firm Adjustment**\
 \[Draft coming soon\] `<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-shifting-burden" aria-expanded="false" aria-controls="abs-shifting-burden">Abstract</button>`{=html}
 
 `<div class="collapse abstract-collapse" id="abs-shifting-burden"><div class="card card-body abstract-body">`{=html}
-Abstract coming soon.
+How do unions shape the way firms and workers adjust to negative shocks? I study the decline in export demand during the 2008 financial crisis using Canadian matched employer-employee tax records that identify collective agreement coverage for every worker. Union and non-union firms experiencing similar shocks reduce employment by comparable amounts, but through different mechanisms. Non-union firms cut hiring and reduce the pay of the workers who stay. In contrast, union firms protect incumbent earnings, including those of workers not covered by the agreement, and adjust primarily through separations. The workers who bear these job losses are not the ones seniority-based theories would predict. Separations at union firms are concentrated among older, long-tenured workers, many of whom retire with employer pensions. This pattern does not appear at non-union firms and provides novel evidence that union status determines whether firms use early retirement to respond to negative shocks. I also show that the combined value of pensions and additional leisure for each induced retiree is similar to their pre-shock earnings. These findings suggest that unions serve as a form of insurance, protecting wages and turning job losses among older workers into early retirements.
 `</div></div>`{=html}
 
-**Do Active Labor Market Programs Help At-Risk Populations? Evidence from Linked Social Assistance Records**\
-With [Kelly Foley](https://www.kellyfoley.org/) and [Vince Hopkins](https://www.vincehopkins.com/about) `<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-almp" aria-expanded="false" aria-controls="abs-almp">Abstract</button>`{=html}
+## Work in Progress
+
+**Do Active Labor Market Programs Help Disadvantaged Populations? Evidence from Linked Income Assistance Records**\
+With [Kelly Foley](https://www.kellyfoley.org/), [Vince Hopkins](https://www.vincehopkins.com/about), Ada Litvinov, and Shan Wei `<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-almp" aria-expanded="false" aria-controls="abs-almp">Abstract</button>`{=html}
 
 `<div class="collapse abstract-collapse" id="abs-almp"><div class="card card-body abstract-body">`{=html}
-Abstract coming soon.
+Active labour market policies (ALMPs) serve heterogeneous populations with diverse needs. Their effectiveness therefore depends on who participates and what happens after participation. Yet most evaluations are not able to simultaneously observe the broader population from which participants are drawn, the services that participants receive, and any subsequent changes in outcomes. Are people with greater predicted need more likely to participate? Conditional on participation, who receives intensive services? And to what extent do these services reduce reliance on income support? We answer these questions using linked administrative records for 1.16 million British Columbians born between 1976 and 2000. The data combine K-12 school activity, more than three decades of Income Assistance (IA) casefiles, and participation in WorkBC, the province's primary ALMP. Using characteristics measured before contact with WorkBC, including childhood IA exposure, we construct an index of predicted need that ranks clients and non-clients on a common scale. Participation is substantially higher among those with greater predicted need: 9.4% of individuals in the highest-need quintile participate in WorkBC, compared with 2.8% in the lowest. Yet conditional on participation, the highest-need clients are the least likely to receive high-intensity, case-managed services. Using an applicant comparison design and doubly robust difference-in-differences, we estimate the effects of high-intensity ALMP services on IA receipt. Among the highest-need clients, high-intensity services reduce annual IA payments by about \$515 (6-10%), with effects persisting for at least five years and larger reductions among women.
 `</div></div>`{=html}
 
 **Firm Networks and Wage Determination**\
