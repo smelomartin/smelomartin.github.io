@@ -13,6 +13,9 @@ Fall 2023 -- Fall 2025
 `<i class="bi bi-mortarboard"></i>`{=html} Labor Economics (Graduate - PhD level)\
 Fall 2024 -- Fall 2025
 
+`<i class="bi bi-mortarboard"></i>`{=html} Applied Economics (Graduate - MA level)\
+Summer 2025
+
 `<i class="bi bi-mortarboard"></i>`{=html} International Trade (Undergraduate)\
 2022 -- Fall 2023
 
