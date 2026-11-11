@@ -5,7 +5,7 @@ title-block-banner: false
 
 ## Job Market Paper
 
-**[Who Bears the Shock? Unions, Early Retirement, and Firm Adjustment](https://www.dropbox.com/scl/fi/vz778mahe6e2jfmlc5jpn/JMP_draft2026.pdf?rlkey=gcac4npwn3dbn36tpv5gsvvxk&st=b73aif5g&dl=0)**\
+**Who Bears the Shock? Unions, Early Retirement, and Firm Adjustment**\
 \[[Paper](https://www.dropbox.com/scl/fi/vz778mahe6e2jfmlc5jpn/JMP_draft2026.pdf?rlkey=gcac4npwn3dbn36tpv5gsvvxk&st=b73aif5g&dl=0)\] `<button class="btn btn-outline-secondary btn-sm abstract-btn" type="button" data-bs-toggle="collapse" data-bs-target="#abs-shifting-burden" aria-expanded="false" aria-controls="abs-shifting-burden">Abstract</button>`{=html}
 
 `<div class="collapse abstract-collapse" id="abs-shifting-burden"><div class="card card-body abstract-body">`{=html}
